@@ -4,6 +4,8 @@
     background-color: white;
 
 }
+
+
 .container-center{
    margin-top: 2rem;
 }
@@ -13,6 +15,10 @@
     align-items: center;
     justify-content: center;
     align-items: center;
+}
+p{
+    text-align: center;
+    color: white;
 }
 .col{
     height: 50px;
