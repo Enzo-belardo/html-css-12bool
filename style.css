@@ -1,10 +1,40 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-color: greenyellow;
+    background-color: white;
+
+}
+.container-center{
+   margin-top: 2rem;
 }
 .row{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+    height: 50px;
+}
+.row-big{
+    height: 70px;
+}
+.col-big{
+    height: 75px;
+}
+.col-int{
+    height: 50px;
+    background: rgb(44, 223, 44);
+    margin: 0 .5rem;
+}
+.row-int{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.space{
+    margin-top: 2rem;
 }
 
